@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\roblox">
+      <UniqueIdentifier>{96bea8e5-caad-466b-9ae4-3ff4cefc24b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\task_scheduler">
+      <UniqueIdentifier>{f6ea7414-6070-41e9-8cf6-be0dd186d37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{8a3fdb83-c17f-462d-ad9f-b183e6e10f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies">
+      <UniqueIdentifier>{12b88232-f99c-46c6-b472-b1681bc5cd2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\imgui">
+      <UniqueIdentifier>{9b1fe3ab-0573-4152-844d-e708781925e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{801e1c49-05f8-4264-be4e-eb6bd9a874e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\visuals">
+      <UniqueIdentifier>{256b8728-6c66-483f-b5f8-4ea0ad6931a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\menu">
+      <UniqueIdentifier>{52e34269-7791-46e6-a226-d5af46ce2ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\menu\config">
+      <UniqueIdentifier>{c0327635-f122-48cf-a635-28e1c11b05e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\menu\fonts">
+      <UniqueIdentifier>{1a517c2c-0937-4f3c-9e95-22bcb23edfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\menu\libs">
+      <UniqueIdentifier>{3d19071a-cd86-4ae3-be5a-554a30bcd562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\aimbot">
+      <UniqueIdentifier>{8ce42ede-377b-4681-9203-ef21d8d191c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\exception_handler">
+      <UniqueIdentifier>{77694e1f-0c4f-48d6-86e2-f31d88804d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\authentication">
+      <UniqueIdentifier>{d0ce991e-0c6b-417b-8db2-a97b5c2ce57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\vmprotect">
+      <UniqueIdentifier>{f03a7f2a-0b53-4047-945e-9be0d4db02c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\json">
+      <UniqueIdentifier>{2663274a-ad30-4c02-9348-f444779c4253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\curl">
+      <UniqueIdentifier>{3d8af185-07ae-4f36-8ed0-daa5531ef18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\curl\include">
+      <UniqueIdentifier>{9ae4cc21-0174-4077-ac08-ee6a88a8dd9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\curl\include\curl">
+      <UniqueIdentifier>{dd45dd79-7db4-42ac-91ce-265d71928929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\cpr">
+      <UniqueIdentifier>{619790c5-cc3e-490b-92a3-0275085e02bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\cpr\cpr">
+      <UniqueIdentifier>{de1881bd-03f4-4f59-badd-9111adcac0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\cpr\include">
+      <UniqueIdentifier>{a4c2a3a1-44b9-44b8-aa43-8efd96c7b3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\cpr\include\cpr">
+      <UniqueIdentifier>{34d43c11-112c-466b-b2fd-56d26ea10b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\games">
+      <UniqueIdentifier>{d5130a19-0d1e-47fd-8b68-6316aa061b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\misc">
+      <UniqueIdentifier>{8b96f8a6-25b7-4182-8722-f9e22dac6619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\oxorany">
+      <UniqueIdentifier>{88973b44-3ef2-4682-af76-7864482d649e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\inst_size">
+      <UniqueIdentifier>{9b48f1d9-411d-4eeb-a7a5-55fb44e48a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{40dd8c22-6f5b-4a31-9ee5-4951682c1195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\games\base_game">
+      <UniqueIdentifier>{0d1328f7-624c-46d2-8bd0-e9e44eb4fc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\games\phantom_forces">
+      <UniqueIdentifier>{84b3c76e-ec0a-461b-8b62-ad14f2f3e443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\games\bad_business">
+      <UniqueIdentifier>{cab7dbb1-a994-4351-9167-168aded16156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\games\rush_point">
+      <UniqueIdentifier>{f184b31c-c82b-42e5-9bc9-a5abc6ce056d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\games\front_lines">
+      <UniqueIdentifier>{fcfe0cdf-f700-4b03-b3be-f634ae807546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\games\arsenal">
+      <UniqueIdentifier>{a8b50f5b-8241-4a7b-9fe0-dbe36bc577e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\roblox.cpp">
+      <Filter>Source Files\roblox</Filter>
+    </ClCompile>
+    <ClCompile Include="math\math.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="task_scheduler\task_scheduler.cpp">
+      <Filter>Source Files\task_scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_demo.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\visuals.cpp">
+      <Filter>Source Files\features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\menu\ui.cpp">
+      <Filter>Source Files\renderer\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\menu\libs\imgui_tricks.cpp">
+      <Filter>Source Files\renderer\menu\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\menu\config\config.cpp">
+      <Filter>Source Files\renderer\menu\config</Filter>
+    </ClCompile>
+    <ClCompile Include="features\aimbot\aimbot.cpp">
+      <Filter>Source Files\features\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\exception_handler\ExceptionHandler.cpp">
+      <Filter>Source Files\dependencies\exception_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="authentication\authenticate.cpp">
+      <Filter>Source Files\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="authentication\encryption.cpp">
+      <Filter>Source Files\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="features\misc\misc.cpp">
+      <Filter>Source Files\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\oxorany\oxorany.cpp">
+      <Filter>Source Files\dependencies\oxorany</Filter>
+    </ClCompile>
+    <ClCompile Include="games\rush_point\rush_point.cpp">
+      <Filter>Source Files\games\rush_point</Filter>
+    </ClCompile>
+    <ClCompile Include="games\arsenal\arsenal.cpp">
+      <Filter>Source Files\games\arsenal</Filter>
+    </ClCompile>
+    <ClCompile Include="games\bad_business\bad_business.cpp">
+      <Filter>Source Files\games\bad_business</Filter>
+    </ClCompile>
+    <ClCompile Include="games\base_game\base_game.cpp">
+      <Filter>Source Files\games\base_game</Filter>
+    </ClCompile>
+    <ClCompile Include="games\front_lines\front_lines.cpp">
+      <Filter>Source Files\games\front_lines</Filter>
+    </ClCompile>
+    <ClCompile Include="games\phantom_forces\phantom_forces.cpp">
+      <Filter>Source Files\games\phantom_forces</Filter>
+    </ClCompile>
+    <ClCompile Include="games\games.cpp">
+      <Filter>Source Files\games</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="roblox\roblox.hpp">
+      <Filter>Source Files\roblox</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.hpp">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer.hpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_win32.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\visuals.hpp">
+      <Filter>Source Files\features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\menu\ui.hpp">
+      <Filter>Source Files\renderer\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\menu\libs\imgui_tricks.hpp">
+      <Filter>Source Files\renderer\menu\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\menu\fonts\poppins.hpp">
+      <Filter>Source Files\renderer\menu\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\menu\config\config.hpp">
+      <Filter>Source Files\renderer\menu\config</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot\aimbot.hpp">
+      <Filter>Source Files\features\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\exception_handler\ExceptionHandler.hpp">
+      <Filter>Source Files\dependencies\exception_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="authentication\encryption.h">
+      <Filter>Source Files\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="authentication\authenticate.h">
+      <Filter>Source Files\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\vmprotect\VMProtectSDK.h">
+      <Filter>Source Files\dependencies\vmprotect</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\json.hpp">
+      <Filter>Source Files\dependencies\json</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\curl.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\curlver.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\easy.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\mprintf.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\multi.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\options.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\stdcheaders.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\system.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\typecheck-gcc.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\urlapi.h">
+      <Filter>Source Files\dependencies\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx9.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="features\misc\misc.hpp">
+      <Filter>Source Files\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\menu\libs\keys.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\curl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\curlver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\easy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\mprintf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\multi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\stdcheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\typecheck-gcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\urlapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\oxorany\oxorany.h">
+      <Filter>Source Files\dependencies\oxorany</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\inst_size\InstructionSize.h">
+      <Filter>Source Files\dependencies\inst_size</Filter>
+    </ClInclude>
+    <ClInclude Include="task_scheduler\task_scheduler.hpp">
+      <Filter>Source Files\task_scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="games\rush_point\rush_point.hpp">
+      <Filter>Source Files\games\rush_point</Filter>
+    </ClInclude>
+    <ClInclude Include="games\arsenal\arsenal.hpp">
+      <Filter>Source Files\games\arsenal</Filter>
+    </ClInclude>
+    <ClInclude Include="games\bad_business\bad_business.hpp">
+      <Filter>Source Files\games\bad_business</Filter>
+    </ClInclude>
+    <ClInclude Include="games\base_game\base_game.hpp">
+      <Filter>Source Files\games\base_game</Filter>
+    </ClInclude>
+    <ClInclude Include="games\front_lines\front_lines.hpp">
+      <Filter>Source Files\games\front_lines</Filter>
+    </ClInclude>
+    <ClInclude Include="games\phantom_forces\phantom_forces.hpp">
+      <Filter>Source Files\games\phantom_forces</Filter>
+    </ClInclude>
+    <ClInclude Include="games\games.hpp">
+      <Filter>Source Files\games</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dependencies\vmprotect\VMProtectSDK32.dll">
+      <Filter>Source Files\dependencies\vmprotect</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\curl\libcurl_a.lib">
+      <Filter>Source Files\dependencies\curl</Filter>
+    </Library>
+    <Library Include="dependencies\vmprotect\VMProtectSDK32.lib">
+      <Filter>Source Files\dependencies\vmprotect</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
